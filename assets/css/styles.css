@@ -1227,7 +1227,28 @@ ol {
   box-shadow: var(--shadow-md);
 }
 
-.floating-actions .button span:last-child {
+.floating-action-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  min-width: 17.5rem;
+  justify-content: flex-start;
+}
+
+.floating-action-copy {
+  display: grid;
+  gap: 0.1rem;
+  line-height: 1.1;
+}
+
+.floating-action-label {
+  font-weight: 800;
+}
+
+.floating-action-number {
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
   white-space: nowrap;
 }
 
@@ -1419,6 +1440,15 @@ ol {
   .floating-actions .button {
     min-height: 3rem;
     padding-inline: 0.85rem;
+  }
+
+  .floating-action-button {
+    min-width: 15.5rem;
+    gap: 0.7rem;
+  }
+
+  .floating-action-number {
+    font-size: 0.82rem;
   }
 
   .navbar {
