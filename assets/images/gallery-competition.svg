@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" rx="34" fill="#102442" />
+  <circle cx="250" cy="196" r="76" fill="#d4af37" opacity="0.92" />
+  <circle cx="400" cy="168" r="52" fill="#ffffff" opacity="0.16" />
+  <circle cx="542" cy="196" r="76" fill="#d4af37" opacity="0.72" />
+  <path d="M0 436c110-48 246-72 400-72s290 24 400 72v164H0V436Z" fill="#081526" />
+  <text x="72" y="504" font-family="Outfit, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Competition placeholder</text>
+  <text x="72" y="542" font-family="Inter, Arial, sans-serif" font-size="22" fill="#dfe9f7">Replace with verified inter-academy event photos.</text>
+</svg>

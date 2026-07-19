@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" rx="34" fill="#0b1a30" />
+  <circle cx="400" cy="182" r="118" fill="#d4af37" opacity="0.18" />
+  <path d="M120 110c74 54 166 80 280 80s206-26 280-80v164c-74 54-166 80-280 80s-206-26-280-80V110Z" fill="#ffffff" opacity="0.12" />
+  <path d="M0 444c124-54 258-80 400-80s276 26 400 80v156H0V444Z" fill="#081526" />
+  <text x="72" y="504" font-family="Outfit, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Annual Day placeholder</text>
+  <text x="72" y="542" font-family="Inter, Arial, sans-serif" font-size="22" fill="#dfe9f7">Replace with the academy’s annual showcase imagery.</text>
+</svg>

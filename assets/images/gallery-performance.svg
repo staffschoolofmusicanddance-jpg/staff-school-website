@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" rx="34" fill="#132c4f" />
+  <path d="M0 430c116-46 252-70 400-70s284 24 400 70v170H0V430Z" fill="#081526" />
+  <path d="M110 112c48 38 102 58 164 58s116-20 164-58v122c-48 38-102 58-164 58s-116-20-164-58V112Z" fill="#d4af37" opacity="0.92" />
+  <circle cx="274" cy="398" r="16" fill="#f4e1a1" />
+  <circle cx="402" cy="384" r="14" fill="#f4e1a1" />
+  <circle cx="530" cy="398" r="16" fill="#f4e1a1" />
+  <text x="72" y="504" font-family="Outfit, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Performance placeholder</text>
+  <text x="72" y="542" font-family="Inter, Arial, sans-serif" font-size="22" fill="#dfe9f7">Replace with a real stage performance image.</text>
+</svg>

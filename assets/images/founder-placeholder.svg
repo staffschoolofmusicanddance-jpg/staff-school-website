@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 820">
+  <defs>
+    <linearGradient id="founderBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#edf3fb" />
+      <stop offset="100%" stop-color="#dbe6f5" />
+    </linearGradient>
+  </defs>
+  <rect width="720" height="820" rx="44" fill="url(#founderBg)" />
+  <circle cx="360" cy="238" r="90" fill="#0b1a30" opacity="0.9" />
+  <path d="M230 560c0-90 58-168 130-168s130 78 130 168v72H230v-72Z" fill="#17355f" />
+  <path d="M236 632h248" fill="none" stroke="#d4af37" stroke-linecap="round" stroke-width="8" />
+  <text x="360" y="706" text-anchor="middle" font-family="Outfit, Arial, sans-serif" font-size="34" font-weight="700" fill="#0b1a30">Founder image placeholder</text>
+  <text x="360" y="750" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" fill="#64748b">Replace with a real founder photograph before publishing.</text>
+</svg>

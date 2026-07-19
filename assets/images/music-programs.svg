@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <defs>
+    <linearGradient id="musicBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1a30" />
+      <stop offset="100%" stop-color="#1f4577" />
+    </linearGradient>
+    <linearGradient id="musicGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#f3dfa4" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="620" rx="40" fill="url(#musicBg)" />
+  <circle cx="710" cy="120" r="95" fill="#ffffff" opacity="0.08" />
+  <rect x="82" y="110" width="300" height="370" rx="28" fill="#ffffff" opacity="0.08" />
+  <rect x="520" y="180" width="150" height="230" rx="18" fill="#d4af37" opacity="0.9" />
+  <rect x="545" y="200" width="100" height="190" rx="10" fill="#0b1a30" opacity="0.94" />
+  <g fill="#ffffff">
+    <rect x="557" y="212" width="14" height="166" rx="4" />
+    <rect x="577" y="212" width="14" height="166" rx="4" />
+    <rect x="597" y="212" width="14" height="166" rx="4" />
+    <rect x="617" y="212" width="14" height="166" rx="4" />
+  </g>
+  <g fill="none" stroke="url(#musicGold)" stroke-linecap="round" stroke-width="7">
+    <path d="M122 170h170" />
+    <path d="M122 198h170" />
+    <path d="M122 226h140" />
+    <path d="M122 254h140" />
+  </g>
+  <circle cx="298" cy="242" r="24" fill="url(#musicGold)" />
+  <text x="82" y="548" font-family="Outfit, Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Music programs placeholder artwork</text>
+  <text x="82" y="590" font-family="Inter, Arial, sans-serif" font-size="22" fill="#dfe9f7">Use this until real classroom and performance imagery is available.</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1a30" />
+      <stop offset="100%" stop-color="#17355f" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#f2dda0" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="955" cy="150" r="120" fill="#d4af37" opacity="0.12" />
+  <circle cx="1040" cy="500" r="180" fill="#ffffff" opacity="0.05" />
+  <g fill="none" stroke="url(#gold)" stroke-linecap="round" stroke-width="10" opacity="0.9">
+    <path d="M90 180h420" />
+    <path d="M90 218h420" />
+    <path d="M90 256h360" />
+    <path d="M90 294h360" />
+    <path d="M380 148v152" />
+  </g>
+  <circle cx="470" cy="280" r="44" fill="url(#gold)" />
+  <text x="90" y="410" font-family="Outfit, Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff">STAFF School of Music &amp; Dance</text>
+  <text x="90" y="468" font-family="Inter, Arial, sans-serif" font-size="30" fill="#dfe9f7">Learn • Practice • Perform • Grow</text>
+  <text x="90" y="522" font-family="Inter, Arial, sans-serif" font-size="26" fill="#f4e1a1">Premium music and dance training in Hyderabad, Telangana</text>
+</svg>

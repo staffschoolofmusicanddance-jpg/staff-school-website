@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <defs>
+    <linearGradient id="danceBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#102442" />
+      <stop offset="100%" stop-color="#0b1a30" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="620" rx="40" fill="url(#danceBg)" />
+  <circle cx="685" cy="118" r="104" fill="#d4af37" opacity="0.14" />
+  <circle cx="230" cy="520" r="140" fill="#ffffff" opacity="0.06" />
+  <path d="M535 166c54 0 95 40 95 92 0 56-49 106-95 165-46-59-95-109-95-165 0-52 41-92 95-92Z" fill="#d4af37" opacity="0.88" />
+  <circle cx="535" cy="164" r="22" fill="#f7e6b2" />
+  <path d="M176 178c38-26 84-22 112 12 22 28 30 62 26 100-5 46-26 91-58 134-34-43-56-88-62-134-5-38 3-72 22-112Z" fill="#ffffff" opacity="0.12" />
+  <path d="M172 166c42 36 86 48 134 36" fill="none" stroke="#f7e6b2" stroke-linecap="round" stroke-width="8" />
+  <text x="82" y="548" font-family="Outfit, Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Dance programs placeholder artwork</text>
+  <text x="82" y="590" font-family="Inter, Arial, sans-serif" font-size="22" fill="#dfe9f7">A local stand-in for classical, western, Bollywood, and kids dance visuals.</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <defs>
+    <linearGradient id="stageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1a30" />
+      <stop offset="100%" stop-color="#132c4f" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="620" rx="40" fill="url(#stageBg)" />
+  <path d="M80 110c52 42 110 63 176 63s124-21 176-63v150c-52 42-110 63-176 63S132 302 80 260V110Z" fill="#d4af37" opacity="0.92" />
+  <path d="M468 122c44 34 94 52 154 52s110-18 154-52v134c-44 34-94 52-154 52s-110-18-154-52V122Z" fill="#ffffff" opacity="0.12" />
+  <path d="M0 454c120-44 260-66 450-66s330 22 450 66v166H0V454Z" fill="#081526" />
+  <circle cx="206" cy="426" r="18" fill="#f3dfa4" />
+  <circle cx="450" cy="410" r="16" fill="#f3dfa4" />
+  <circle cx="698" cy="426" r="18" fill="#f3dfa4" />
+  <text x="82" y="560" font-family="Outfit, Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">Event and recital placeholder artwork</text>
+  <text x="82" y="598" font-family="Inter, Arial, sans-serif" font-size="22" fill="#dfe9f7">Ideal for annual day, showcases, and performance-related sections.</text>
+</svg>

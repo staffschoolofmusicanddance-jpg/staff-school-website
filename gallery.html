@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery | STAFF School of Music &amp; Dance</title>
+    <meta
+      name="description"
+      content="Browse music, dance, faculty, performance, annual day, competition, workshop, and student achievement gallery placeholders for STAFF School of Music & Dance."
+    />
+    <!-- Replace YOUR-GITHUB-USERNAME in canonical and OG URLs before publishing. -->
+    <link rel="canonical" href="https://YOUR-GITHUB-USERNAME.github.io/staff-school-website/gallery.html" />
+    <meta property="og:title" content="Gallery | STAFF School of Music &amp; Dance" />
+    <meta
+      property="og:description"
+      content="View the gallery structure for music classes, dance classes, performances, workshops, and student achievements."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://YOUR-GITHUB-USERNAME.github.io/staff-school-website/gallery.html" />
+    <meta
+      property="og:image"
+      content="https://YOUR-GITHUB-USERNAME.github.io/staff-school-website/assets/images/og-cover.svg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gallery | STAFF School of Music &amp; Dance" />
+    <meta
+      name="twitter:description"
+      content="A filterable gallery layout for academy classes, faculty, workshops, and performance moments."
+    />
+    <meta
+      name="twitter:image"
+      content="https://YOUR-GITHUB-USERNAME.github.io/staff-school-website/assets/images/og-cover.svg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/config.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body class="page-inner" data-page="gallery">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div data-site-header></div>
+
+    <main id="main-content">
+      <section class="page-hero">
+        <div class="container hero-grid hero-grid--compact">
+          <div data-reveal>
+            <span class="eyebrow">Gallery</span>
+            <h1>A filterable gallery built for real academy moments.</h1>
+            <p class="lead">
+              The gallery below is powered by a single editable JavaScript array so the owner can replace placeholder
+              artwork with real class, event, and achievement photos.
+            </p>
+          </div>
+          <div class="image-card" data-reveal>
+            <img
+              src="assets/images/gallery-performance.svg"
+              alt="Illustrated placeholder showing a stage performance concept"
+              width="800"
+              height="600"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="panel info-strip" data-reveal>
+            <p>
+              All gallery entries are local placeholders with accessible alt text. Replace them with real images in
+              <code>assets/js/config.js</code> and the <code>assets/images/</code> folder when ready.
+            </p>
+          </div>
+          <div class="section-sm">
+            <div data-render="gallery-filters"></div>
+          </div>
+          <div data-render="gallery-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <div
+      class="lightbox"
+      data-lightbox
+      hidden
+      aria-hidden="true"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Expanded gallery image"
+    >
+      <div class="lightbox-dialog">
+        <div class="lightbox-image-wrap">
+          <img data-lightbox-image src="" alt="" width="800" height="600" />
+        </div>
+        <div class="lightbox-copy">
+          <div>
+            <h2 data-lightbox-title></h2>
+            <p data-lightbox-copy></p>
+          </div>
+          <div class="lightbox-controls">
+            <button class="icon-button" type="button" data-lightbox-prev aria-label="Previous gallery image">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/images/icons.svg#chevron-left"></use></svg>
+            </button>
+            <button class="icon-button" type="button" data-lightbox-next aria-label="Next gallery image">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/images/icons.svg#chevron-right"></use></svg>
+            </button>
+            <button class="icon-button" type="button" data-lightbox-close aria-label="Close gallery image">
+              <svg class="icon" aria-hidden="true" focusable="false"><use href="assets/images/icons.svg#close"></use></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-site-footer></div>
+    <div data-floating-actions></div>
+  </body>
+</html>

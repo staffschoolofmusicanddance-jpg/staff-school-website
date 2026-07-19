@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" rx="34" fill="#0b1a30" />
+  <circle cx="600" cy="132" r="88" fill="#d4af37" opacity="0.14" />
+  <path d="M400 132c48 0 84 34 84 78 0 48-44 92-84 144-40-52-84-96-84-144 0-44 36-78 84-78Z" fill="#d4af37" opacity="0.92" />
+  <circle cx="400" cy="130" r="18" fill="#f4e1a1" />
+  <path d="M112 470c80-84 168-134 272-150" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="12" opacity="0.18" />
+  <text x="72" y="504" font-family="Outfit, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Dance class placeholder</text>
+  <text x="72" y="542" font-family="Inter, Arial, sans-serif" font-size="22" fill="#dfe9f7">Replace with a real rehearsal or batch image.</text>
+</svg>

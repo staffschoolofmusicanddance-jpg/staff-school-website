@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#17355f" />
+      <stop offset="100%" stop-color="#0b1a30" />
+    </linearGradient>
+    <linearGradient id="heroGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#f3dfa4" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="720" rx="44" fill="url(#heroBg)" />
+  <circle cx="700" cy="160" r="110" fill="#d4af37" opacity="0.16" />
+  <circle cx="220" cy="600" r="150" fill="#ffffff" opacity="0.06" />
+  <rect x="82" y="122" width="310" height="370" rx="28" fill="#ffffff" opacity="0.08" />
+  <rect x="450" y="180" width="280" height="300" rx="32" fill="#ffffff" opacity="0.08" />
+  <g fill="none" stroke="url(#heroGold)" stroke-linecap="round" stroke-width="7">
+    <path d="M122 188h170" />
+    <path d="M122 214h170" />
+    <path d="M122 240h140" />
+    <path d="M122 266h140" />
+  </g>
+  <circle cx="298" cy="254" r="24" fill="url(#heroGold)" />
+  <path d="M522 240c26-40 88-40 114 0l-16 120h-82l-16-120Z" fill="#d4af37" opacity="0.88" />
+  <path d="M548 360c8 28 25 48 31 48s23-20 31-48" fill="none" stroke="#f3dfa4" stroke-linecap="round" stroke-width="10" />
+  <path d="M122 418c86-16 146-14 220 0" fill="none" stroke="#f3dfa4" stroke-linecap="round" stroke-width="8" opacity="0.8" />
+  <text x="82" y="572" font-family="Outfit, Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Music, dance, discipline, and confidence</text>
+  <text x="82" y="620" font-family="Inter, Arial, sans-serif" font-size="22" fill="#dfe9f7">Local placeholder artwork for the home page hero section.</text>
+</svg>

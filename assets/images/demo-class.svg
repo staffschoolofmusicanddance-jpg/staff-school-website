@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <defs>
+    <linearGradient id="demoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4f8fd" />
+      <stop offset="100%" stop-color="#dce7f3" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="620" rx="40" fill="url(#demoBg)" />
+  <rect x="108" y="122" width="684" height="376" rx="28" fill="#ffffff" stroke="#d4af37" stroke-width="4" />
+  <rect x="148" y="172" width="200" height="36" rx="12" fill="#0b1a30" opacity="0.12" />
+  <rect x="148" y="232" width="280" height="28" rx="10" fill="#0b1a30" opacity="0.09" />
+  <rect x="148" y="278" width="240" height="28" rx="10" fill="#0b1a30" opacity="0.09" />
+  <rect x="148" y="324" width="320" height="28" rx="10" fill="#0b1a30" opacity="0.09" />
+  <rect x="148" y="382" width="220" height="50" rx="18" fill="#d4af37" />
+  <circle cx="650" cy="278" r="88" fill="#0b1a30" opacity="0.92" />
+  <path d="M610 278h80M650 238v80" fill="none" stroke="#f3dfa4" stroke-linecap="round" stroke-width="10" />
+  <text x="108" y="556" font-family="Outfit, Arial, sans-serif" font-size="38" font-weight="700" fill="#0b1a30">Demo class booking placeholder artwork</text>
+  <text x="108" y="596" font-family="Inter, Arial, sans-serif" font-size="22" fill="#64748b">Replace with a live Google Form embed or branded admission visual later.</text>
+</svg>

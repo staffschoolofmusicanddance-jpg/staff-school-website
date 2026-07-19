@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" rx="34" fill="#edf3fb" />
+  <circle cx="396" cy="182" r="74" fill="#0b1a30" opacity="0.92" />
+  <path d="M252 430c0-74 64-142 144-142s144 68 144 142v62H252v-62Z" fill="#17355f" />
+  <rect x="118" y="120" width="130" height="18" rx="9" fill="#d4af37" opacity="0.7" />
+  <rect x="118" y="152" width="170" height="14" rx="7" fill="#0b1a30" opacity="0.1" />
+  <text x="72" y="522" font-family="Outfit, Arial, sans-serif" font-size="34" font-weight="700" fill="#0b1a30">Faculty placeholder</text>
+  <text x="72" y="558" font-family="Inter, Arial, sans-serif" font-size="22" fill="#64748b">Replace with a verified instructor photo.</text>
+</svg>
