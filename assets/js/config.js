@@ -15,10 +15,10 @@ window.STAFF_SITE = {
   },
   contact: {
     // OWNER UPDATE REQUIRED: Replace these placeholders with the academy's real contact details.
-    phoneDisplay: "+91 00000 00000",
-    phoneRaw: "+910000000000",
-    whatsappDisplay: "+91 00000 00000",
-    whatsappNumber: "910000000000",
+    phoneDisplay: "+91 70756 36880",
+    phoneRaw: "+917075636880",
+    whatsappDisplay: "+91 70756 36880",
+    whatsappNumber: "917075636880",
     whatsappMessage: "Hello, I am interested in booking a demo class at STAFF School of Music & Dance.",
     email: "hello@staffschool.example",
     addressLines: [

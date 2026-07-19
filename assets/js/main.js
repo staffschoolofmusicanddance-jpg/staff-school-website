@@ -48,6 +48,8 @@
     "site.tagline": site.site.tagline,
     "site.location": site.site.location,
     "forms.demoFormUrl": site.forms.demoFormUrl,
+    "contact.phoneButtonLabel": `Call ${site.contact.phoneDisplay}`,
+    "contact.whatsappButtonLabel": `WhatsApp ${site.contact.whatsappDisplay}`,
     "contact.phoneHref": `tel:${site.contact.phoneRaw}`,
     "contact.emailHref": `mailto:${site.contact.email}`,
     "contact.whatsappHref": `https://wa.me/${site.contact.whatsappNumber}?text=${encodeURIComponent(site.contact.whatsappMessage)}`,
@@ -253,11 +255,11 @@
       <div class="floating-actions" aria-label="Quick contact actions">
         <a class="button button-primary" href="${escapeHtml(valueFor("contact.whatsappHref"))}" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
           ${icon("whatsapp")}
-          <span>WhatsApp</span>
+          <span>${escapeHtml(valueFor("contact.whatsappButtonLabel"))}</span>
         </a>
         <a class="button button-secondary" href="${escapeHtml(valueFor("contact.phoneHref"))}" aria-label="Call the academy">
           ${icon("phone")}
-          <span>Call</span>
+          <span>${escapeHtml(valueFor("contact.phoneButtonLabel"))}</span>
         </a>
       </div>
     `;
@@ -600,13 +602,13 @@
       slot.innerHTML = [
         actionLinkMarkup({
           href: valueFor("contact.phoneHref"),
-          label: "Call Now",
+          label: valueFor("contact.phoneButtonLabel"),
           iconName: "phone",
           classes: "button button-secondary"
         }),
         actionLinkMarkup({
           href: valueFor("contact.whatsappHref"),
-          label: "WhatsApp Us",
+          label: valueFor("contact.whatsappButtonLabel"),
           iconName: "whatsapp",
           classes: "button button-primary",
           external: true
