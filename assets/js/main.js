@@ -253,19 +253,13 @@
 
     slot.innerHTML = `
       <div class="floating-actions" aria-label="Quick contact actions">
-        <a class="button button-primary floating-action-button" href="${escapeHtml(valueFor("contact.whatsappHref"))}" target="_blank" rel="noreferrer" aria-label="WhatsApp ${escapeHtml(site.contact.whatsappDisplay)}">
+        <a class="button button-primary" href="${escapeHtml(valueFor("contact.whatsappHref"))}" target="_blank" rel="noreferrer" aria-label="WhatsApp ${escapeHtml(site.contact.whatsappDisplay)}">
           ${icon("whatsapp")}
-          <span class="floating-action-copy">
-            <span class="floating-action-label">WhatsApp</span>
-            <span class="floating-action-number">${escapeHtml(site.contact.whatsappDisplay)}</span>
-          </span>
+          <span>WhatsApp</span>
         </a>
-        <a class="button button-secondary floating-action-button" href="${escapeHtml(valueFor("contact.phoneHref"))}" aria-label="Call ${escapeHtml(site.contact.phoneDisplay)}">
+        <a class="button button-secondary" href="${escapeHtml(valueFor("contact.phoneHref"))}" aria-label="Call ${escapeHtml(site.contact.phoneDisplay)}">
           ${icon("phone")}
-          <span class="floating-action-copy">
-            <span class="floating-action-label">Call</span>
-            <span class="floating-action-number">${escapeHtml(site.contact.phoneDisplay)}</span>
-          </span>
+          <span>Call</span>
         </a>
       </div>
     `;
