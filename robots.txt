@@ -1,5 +1,5 @@
-# Replace YOUR-GITHUB-USERNAME with the final GitHub Pages username or custom domain before publishing.
+# Update this URL if the site later moves to a custom domain.
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-GITHUB-USERNAME.github.io/staff-school-website/sitemap.xml
+Sitemap: https://staffschoolofmusicanddance-jpg.github.io/staff-school-website/sitemap.xml

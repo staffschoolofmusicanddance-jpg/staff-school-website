@@ -9,9 +9,9 @@ window.STAFF_SITE = {
     foundedYear: 2022,
     location: "Hyderabad, Telangana, India",
     repoName: "staff-school-website",
-    // Replace this placeholder with your final GitHub Pages URL or custom domain before publishing.
-    siteUrl: "https://YOUR-GITHUB-USERNAME.github.io/staff-school-website/",
-    ogImageUrl: "https://YOUR-GITHUB-USERNAME.github.io/staff-school-website/assets/images/og-cover.svg"
+    // Update this if you later move the site to a custom domain.
+    siteUrl: "https://staffschoolofmusicanddance-jpg.github.io/staff-school-website/",
+    ogImageUrl: "https://staffschoolofmusicanddance-jpg.github.io/staff-school-website/assets/images/og-cover.svg"
   },
   contact: {
     // OWNER UPDATE REQUIRED: Replace these placeholders with the academy's real contact details.
